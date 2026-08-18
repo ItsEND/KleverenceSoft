@@ -32,7 +32,7 @@ public static class Server
     }
 
     //Для тестов
-    public static void Reset() 
+    public static void Reset()
     {
         _lock.EnterWriteLock();
         try
